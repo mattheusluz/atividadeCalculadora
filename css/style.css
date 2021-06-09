@@ -1,0 +1,49 @@
+*{
+  color: #fff;
+}
+.botao{
+  background: rgb(59, 58, 58);
+  border-radius: 20%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.botao:hover{
+  background: black;
+  cursor: pointer;
+}
+
+.igual{
+  height: 106px;
+  border-radius: 10%;
+}
+
+.zero{
+  width: 106px;
+  border-radius: 10%;
+}
+
+.calculadora{
+  top: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.container{
+  display: flex;
+}
+
+#resultado{
+  width: 100%;
+  background: #fff;
+  height: 35px;
+  color: black;
+  text-align: right;
+  padding: 10px 0 0 0;
+  font-size: 25px;
+}
