@@ -2,6 +2,14 @@
   color: #fff;
   font-size: 1.2rem;
 }
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .botao{
   background: rgb(59, 58, 58);
   border-radius: 20%;
